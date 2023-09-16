@@ -128,7 +128,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1qrd2sl', 'template_ki8imdl', form.current, 'pISwT3mDhJhOZ5N-7')
+    emailjs.sendForm('', '', form.current, '')
       .then((result) => {
         // console.log(result.text);
         setOpen(true);
